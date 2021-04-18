@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+    <array id="INFO">
+        <node id="version" value="1"/>
+    </array>
+
+    <array id="ATTRIBUTES">
+        <node id="actor_flags" value="SOLID,INDESTRUCTIBLE"/>
+        <node id="physics_material" value="CONCRETE"/>
+        <node id="mass" value="80"/>
+        <node id="gravity_multiplier" value="1"/>
+        <node id="turn_speed" value="2.5"/>
+        <node id="move_acceleration" value="200"/>
+        <node id="max_move_speed" value="10"/>
+        <node id="dampening_factor_on_ground" value="0"/>
+        <node id="dampening_factor_on_air" value="0"/>
+        <node id="restitution_coefficient" value="0.5"/>
+        <node id="friction" value="0.2"/>
+        <node id="minimum_damage_threshold" value="0"/>
+        <node id="aggro_radius" value="128"/>
+        <node id="friend_avoidance_radius" value="10"/>
+        <node id="initial_scale" value="1"/>
+        <node id="damage" value="80"/>
+        <node id="range" value="0"/>
+        <node id="max_hit_points" value="100"/>
+        <node id="damage_type" value="PIERCING"/>
+        <node id="friend_group" value="OBSTACLES"/>
+        <node id="color" r="1" g="1" b="1" a="1"/>
+    </array>
+
+    <array id="AI_PARAMETERS" ai="DysmantleBehavioral">
+    </array>
+
+    <array id="AI_BEHAVIORS">
+        <node id="DysmantleProjectileWeapon"
+              key.ACTOR_TYPE.ProjectileWeapon_projectile="actors/projectiles/gavel-plasma.xml"
+              key.INTEGER.ProjectileWeapon_projectiles_per_shot="1"
+              key.FLOAT.ProjectileWeapon_projectile_speed="2000"
+              key.FLOAT.ProjectileWeapon_projectile_speed_spread="0"
+              key.FLOAT.ProjectileWeapon_projectile_damage_multiplier="1"
+              key.FLOAT.ProjectileWeapon_projectile_accuracy_spread="0.01"
+              key.FLOAT.ProjectileWeapon_projectile_spread="0"
+              key.BOOLEAN.ProjectileWeapon_auto_shoot="false"
+              key.FLOAT.ProjectileWeapon_auto_shoot_interval="1"
+              key.STRING.ProjectileWeapon_bones="root"
+              key.BOOLEAN.ProjectileWeapon_ignore_z_direction="true"
+              key.BOOLEAN.ProjectileWeapon_set_target_actor="true"
+              key.INTEGER.ProjectileWeapon_clip_size="-1"
+        />
+    </array>
+
+    <array id="ANIMATIONS">
+        <node id="weapon_fired" event_0_trigger_time="0" event_0_id="sfx" event_0_sound_event="{{FLOAT2,|Q|frequency_range|Q|,|Q|0.9,1.1|Q|},{FLOAT2,|Q|radius_inner_outer|Q|,|Q|1000,2000|Q|},{STRING,|Q|sounds|Q|,|Q|sfx/weapons/plasma-rifle-fire|Q|}}"/>
+    </array>
+
+    <array id="RENDERER_PARAMETERS">
+        <node id="renderer" value="Model" />
+        <node id="bm_shadow" value="shadows/shadow-circle.png" />
+        <node id="shadow_scale" value="0.75" />
+        <node id="shadow_alpha" value="0.5" />
+        <node id="model" value="models/dydge-gavel-menu.model"/>
+    </array>
+
+    <array id="COLLIDER">
+        <node id="type" value="MESH" />
+        <node id="min_z" value="-5.8" />
+        <node id="max_z" value="8.0" />
+    </array>
+
+</root>

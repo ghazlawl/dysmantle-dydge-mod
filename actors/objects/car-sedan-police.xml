@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+    <array id="RENDERER_PARAMETERS">
+        <node id="render_scale" value="0.1" />
+    </array>
+    <array id="PROPS">
+        <node id="dydge-car-police"
+              mount_bone_id="root"
+              handle_bone_id="root"
+              actor_type="actors/objects/dydge-car-police.xml"
+              mount_scale="10"
+              mount_rotation_angles_x="1.5708"
+              mount_rotation_angles_y="3.1416"
+              mount_rotation_angles_z="1.5708"
+        />
+    </array>
+</root>

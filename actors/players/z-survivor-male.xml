@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+    <array id="PROPS">
+        <node id="dydge-prop-helmet-soldier"
+              mount_bone_id="head"
+              actor_type="actors/headgear/dydge-prop-helmet-solider.xml"
+              mount_rotation_angles_x="0"
+              mount_rotation_angles_y="0"
+              mount_rotation_angles_z="0"
+              mount_scale="2"
+              mount_offset_y="0"
+        />
+    </array>
+</root>

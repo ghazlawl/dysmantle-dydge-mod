@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+    <array id="COMPONENTS">
+        <node
+                name="Recipe_DYDGE_GAVEL"
+                type="BUTTON"
+                inherit="DefaultButton"
+                parent="marker_tree"
+                position.x="0.38"
+                position.y="0.18"
+                localize="false"
+                custom_draw="true"
+                scale="1.1"
+                ui_scale_modifier="0.2"
+                button.text=""
+                button.textbox_width="120"
+                button.text_color_idle="1,1,1,1"
+                button.dynamic_text_scale_limits="0.7,0.7"
+                button.text_offset="0,70"
+                button.bm_idle="ui/gfx/ninepatch-material-slot.png"
+                button.bm_over="ui/gfx/ninepatch-material-slot.png"
+                button.bm_pressed="ui/gfx/ninepatch-material-slot.png"
+                button.bm_disabled="ui/gfx/ninepatch-material-slot.png"
+                button.ninepatch_width="90"
+                button.ninepatch_height="90"
+                button.text_padding_horizontal="-40"
+        />
+    </array>
+</root>

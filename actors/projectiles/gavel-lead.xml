@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+<root>
+
+    <array id="INFO">
+        <node id="version" value="1"/>
+    </array>
+
+    <array id="ATTRIBUTES">
+        <node id="actor_flags" value="SOLID,PROJECTILE,DELETE_ACTOR_AFTER_DEATH"/>
+        <node id="physics_material" value="BULLET"/>
+        <node id="mass" value="80"/>
+        <node id="gravity_multiplier" value="1"/>
+        <node id="turn_speed" value="2.5"/>
+        <node id="move_acceleration" value="0"/>
+        <node id="max_move_speed" value="0"/>
+        <node id="dampening_factor_on_ground" value="0"/>
+        <node id="dampening_factor_on_air" value="0"/>
+        <node id="restitution_coefficient" value="0.5"/>
+        <node id="friction" value="0.2"/>
+        <node id="minimum_damage_threshold" value="0"/>
+        <node id="aggro_radius" value="512"/>
+        <node id="friend_avoidance_radius" value="10"/>
+        <node id="initial_scale" value="1"/>
+        <node id="damage" value="25"/>
+        <node id="range" value="512"/>
+        <node id="max_hit_points" value="50"/>
+        <node id="damage_type" value="PROJECTILE"/>
+        <node id="friend_group" value="PROJECTILES"/>
+        <node id="color" r="1" g="1" b="1" a="1"/>
+    </array>
+
+    <array id="AI_PARAMETERS" ai="DysmantleProjectile">
+    </array>
+
+    <array id="RENDERER_PARAMETERS">
+        <node id="renderer" value="Bitmap"/>
+        <node id="bm_shadow" value="shadows/shadow-circle.png"/>
+        <node id="shadow_scale" value="0.5"/>
+        <node id="shadow_method" value="NONE"/>
+        <node id="blend_mode" value="ADDITIVE"/>
+        <node id="initial_bitmap_a" value="actors/projectiles/gfx/bullet-conv.png"/>
+    </array>
+
+    <array id="COLLIDER">
+        <node id="type" value="SPHERE"/>
+        <node id="radius" value="1.0"/>
+    </array>
+</root>

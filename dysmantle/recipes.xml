@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+    <array id="RECIPES">
+        <node id="DYDGE_GAVEL"
+              category="CRAFTING" 
+              tags="AVAILABLE_AT_START,CRAFTED_AT_START"
+              level_requirement="10"
+              requires_materials="10xSCRAP_METAL,5xSCRAP_ELECTRONICS"
+              output_item_id="items/tools/dydge-gavel.nut"
+        />
+    </array>
+</root>
